@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  background: rgb(220, 255, 220);
+}
+
+#navbar {
+  width: 15%;
+  padding: 10px 20px 0px;
+}
+
+#navbar ul li {
+  list-style-type: none;
+  line-height: 1.5rem;
+  background-color: ghostwhite;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.main {
+  width: 85%;
+  background-color: rgb(173, 237, 240);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  background-color: aliceblue;
+}
+
+.logo img {
+  width: 100px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.content {
+  min-height: 500px;
+  background-color: rgb(248, 246, 244);
+}
+
+.footer {
+  min-height: 150px;
+  background-color: aliceblue;
+}
