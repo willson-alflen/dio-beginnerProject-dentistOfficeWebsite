@@ -74,26 +74,58 @@ body {
 }
 
 .content {
-  min-height: 500px;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid red;
 }
 
-.content h2 {
+.description {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.description h2,
+.description p,
+.description img {
   margin-bottom: 20px;
 }
 
-.content-main {
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  margin-bottom: 100px;
+.description img {
+  box-sizing: border-box;
+  width: 100%;
 }
 
-.content-main img {
-  width: 500px;
+.form-container {
+  border: 1px solid red;
+  width: 60%;
+  margin-top: 50px;
+}
+
+.form-container form h2 {
+  text-align: center;
+}
+
+.form-container label {
+  padding-left: 10px;
+}
+
+.form-container input,
+.form-container select  {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+.form-container select {
+  background-color: white;
 }
 
 /* table - horário de atendimento */
@@ -128,5 +160,47 @@ tr:hover {
 }
 
 .footer {
-  min-height: 150px;
+  padding: 50px 0 50px;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container ul li{
+  list-style-type: none;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  width: 33%;
+}
+
+.footer-left p {
+  width: 80%;
+}
+
+.footer-center ul li {
+  margin: 10px 0;
+}
+
+
+.footer-right ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-right ul li {
+  margin-top: 20px;
+}
+
+.footer-right ul li i {
+  font-size: 50px;
+
+
+}
+
+
