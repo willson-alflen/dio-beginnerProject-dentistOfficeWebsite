@@ -4,7 +4,7 @@
 
 Webpage developed as a requirement for the "Formação HTML" course by Digital Innovation One.
 
-Check it out here: [dentist-office-website](https://willson-alflen.github.io/dentist-office-website/)
+Check it out here: [dentist-office-website](https://willson-alflen.github.io/dio-beginnerProject-dentistOfficeWebsite/)
 
 ***
 
