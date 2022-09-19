@@ -34,37 +34,82 @@
          <h2>Entre em contato conosco</h2>
         </div>
 
-      <div class="info-contact">
-         <div class="info-contact-desc">
-            <h2>Precisando de ajuda?</h2>
-            <p>Temos várias formas de lhe atender. Escolha a sua preferida!</p>
-         </div>
-         <div class="row">
-            <div class="card-contact">
-               <a href=""><i class="fa-regular fa-envelope"></i></i></a>
-              <h3>Email</h3>
-              <p>faleconosco@smiles.com.br</p>
-            </div>
-
-            <div class="card-contact">
-               <a href=""><i class="fa-solid fa-phone"></i></a>
-              <h3>Telefone</h3>
-              <p>+55 (49) 1234-5678</p>
-            </div>
-
-            <div class="card-contact">
-               <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-              <h3>Facebook</h3>
-              <p>facebook.com/smiles</p>
-            </div>
-
-            <div class="card-contact">
-               <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <h3>Instagram</h3>
-              <p>instagram.com/smiles</p>
-            </div>
+        <div class="info-contact">
+          <div class="info-contact-desc">
+              <h2>Precisando de ajuda?</h2>
+              <p>Temos várias formas de lhe atender. Escolha a sua preferida!</p>
           </div>
-      </div>
+          <div class="row">
+              <div class="card-contact">
+                <a href=""><i class="fa-regular fa-envelope"></i></i></a>
+                <h3>Email</h3>
+                <p>faleconosco@smiles.com.br</p>
+              </div>
+
+              <div class="card-contact">
+                <a href=""><i class="fa-solid fa-phone"></i></a>
+                <h3>Telefone</h3>
+                <p>+55 (49) 1234-5678</p>
+              </div>
+
+              <div class="card-contact">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <h3>Facebook</h3>
+                <p>facebook.com/smiles</p>
+              </div>
+
+              <div class="card-contact">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <h3>Instagram</h3>
+                <p>instagram.com/smiles</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="form-container">
+          <form action="#">
+            <h2>Agende já a sua avaliação!</h2>
+
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" />
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" />
+
+            <label for="phone">Telefone:</label>
+            <input type="text" name="phone" id="phone" />
+
+            <label for="appt-type">Tipo de Consulta</label>
+            <select id="appt-type" name="appt-type">
+              <option value="" selected disabled>Escolha uma opção</option>
+              <option value="clinica">Clínica</option>
+              <option value="estetica">Estética</option>
+              <option value="implante">Implante</option>
+              <option value="outro">Outro</option>
+            </select>
+
+            <label id="message" for="messsage">Escreva-nos sobre o procedimento desejado:</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+              <small>
+                <label>
+                  <input
+                    type="checkbox"
+                    name="checkbox-consentimento"
+                    id="consentimento"
+                    value="1"
+                  />
+                    Ao marcar, eu aceito a
+                    <a href="#" target="_blank">Política de Privacidade.</a>
+                </label>
+              </small>
+
+              <div class="form-buttons">
+                <button type="submit">Agendar</button>
+                <button type="reset">Limpar</button>
+              </div>
+          </form>
+        </div>
       </section>
 
       <hr>
@@ -101,13 +146,13 @@
 
             <ul>
               <li>
-                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
               </li>
               <li>
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
               </li>
               <li>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
               </li>
             </ul>
           </div>
